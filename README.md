@@ -13,5 +13,5 @@ Day 1 - websites I will use for research.
       - Has font upload function.
       - Has a low amount of bugs.
       
-      [Learn HTML_ Elements and Structure Cheatsheet _ Codecademy.pdf](https://github.com/1-12-19-5-20-0/LearningHTML/files/11234334/Learn.HTML_.Elements.and.Structure.Cheatsheet._.Codecademy.pdf)
+      
   
