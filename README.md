@@ -14,4 +14,5 @@ Day 1 - websites I will use for research.
       - Has a low amount of bugs.
       
       
-  
+Day 2 - practice making websites in code Acadamy and W3 schools.
+
