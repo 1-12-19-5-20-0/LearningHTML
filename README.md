@@ -15,4 +15,9 @@ Day 1 - websites I will use for research.
       
       
 Day 2 - practice making websites in code Acadamy and W3 schools.
+       - made rubric 
+       
+Day 3 - made prac website, made logo, 
+        - found websites for reference.
+        - found video tutorial. 
 
