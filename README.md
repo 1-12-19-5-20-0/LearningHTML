@@ -20,4 +20,9 @@ Day 2 - practice making websites in code Acadamy and W3 schools.
 Day 3 - made prac website, made logo, 
         - found websites for reference.
         - found video tutorial. 
+        
+Day 4 - Started making my website.
+         ??// its getting better with everyline I write.
+         
+Day 5 - finish layout of the website by next class.
 
