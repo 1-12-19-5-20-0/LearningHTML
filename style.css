@@ -1,0 +1,23 @@
+<style>
+            h1  {
+                font-size: 50px;
+                margin-top: 10px;
+            }
+            img{
+                width: 50px;
+                border-radius: 10px;
+                float: left;
+                margin-right: 10px;
+            }
+            .body {
+                    font-weight: normal;
+                    padding: 5px;
+            }
+            .navbar {
+                float: left;
+                display: block;
+                background-color: blue;
+                padding: 8px;
+            }
+
+</style>
