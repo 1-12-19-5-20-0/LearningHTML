@@ -24,5 +24,24 @@ Day 3 - made prac website, made logo,
 Day 4 - Started making my website.
          ??// its getting better with everyline I write.
          
-Day 5 - finish layout of the website by next class.
+Day 5 - finish layout of the website by next class. 
+   layout 
+   
+   logo Write better 
+   
+     Font | input |
+     Panagram |on| |off|
+     Font size |college ruled(12px) or regular(14px)|
+     Background |Lines or Plain|
+     
+     |Print|
+ 
+Day 6 - making algorithm for website.
+
+         
+         take a font txt 
+         
+         
+         
+Day 7 working on  algorithm
 
