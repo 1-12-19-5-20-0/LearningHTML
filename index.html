@@ -8,23 +8,82 @@
          
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="Images/writeBetterLightMode.png">
-        <title >Write Better</title>
+        <title > Write Better.</title>
         
     </head>
     <heading>
         <nav>
             <img src="Images/writeBetterLightMode.png">
-            <h1>Write Better</h1>
+            <h1> Write Better.</h1>
         </nav>
+        <div class="parent">
+            <div class="child"><h2 class="body">Font</h2></div>
+            <div class="child">
+                <div class="selectFontWrapper">
+                    <select class="selectFont">
+                        <option Font="SourceCodePro-Regular">Printed</option>
+                        <option Font="GreatVibes-Regular">Cursive</option>
+                        </select>
+                </div>
+                
+            </div>
+        </div>
+        <div class="parent2">
+            <div class="child2"><h2 class="body">Panagram</h2></div>
+            <div class="child2">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+            </div>
+        </div>
         
-        <h2 class="body">Font</h2>
-        <h2 class="body">Panagram</h2>
-        <h2 class="body">Font Size</h2>
-        <h2 class="body">Background</h2>
-        <h2 class="body">Print</h2>
+       
+        
+        <div class="parent3">
+            <div class = "child3"><h2 class="body">Font Size</h2></div>
+            <div class="child3">
+                <div class="selectFontSizeWrapper">
+                    <select class="selectFontSize">
+                        <option fontSize=12px>CollegeSize</option>
+                        <option fontSize=14px>RegularSize</option>
+                    </select>
+                </div>
+                
+            </div>
+        </div>
+        <div class="parent4">
+            <div class="child4"><h2 class="body">Background</h2></div>
+            <div class="child4">
+                <div class="selectBackgroundWrapper">
+                        <select class="selectBackground">
+                            <option background="Plain">Plain</option>
+                            <option background="Lined">Lined</option>
+                        </select>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="Print">
+            <input value='Print' type='button' onclick='handlePrint()' />
+            <script type="text/javascript">
+                const handlePrint = () => {
+                    var actContents = document.body.innerHTML;
+                    document.body.innerHTML = actContents;
+                    window.print();
+                }
+            </script>
+        </div>
     </heading>
     <body>
-        
+        <!-- <script>
+            var letterAndNumbers = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
+            for(let i = 0; i < letterAndNumbers.length; i++)    {
+               
+
+            }
+        </script>   -->
         
         
     </body>
