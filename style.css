@@ -24,16 +24,18 @@ img{
     padding: 8px;
 }
 
-.child {
-    display:inline-block;
+.col {
+    display: inline-block;
 }
+
 .selectFontWrapper  {
     
     
     border-radius:36px;
     overflow:hidden;
     background:#cccccc;
-    border:1px solid #cccccc;   
+    border:1px solid #cccccc;
+   
 
 }
 .selectFont{
@@ -41,12 +43,9 @@ img{
     height:40px;
     border:0px;
     outline:none;
-  }
-.child2  {
     
-    display: inline-block;
+  }
 
-}
 
 .switch {
     position: relative;
@@ -109,11 +108,7 @@ border-radius: 34px;
 .slider.round:before {
 border-radius: 50%;
 }
-.child3 {
 
-    display: inline-block;
-
-}
 .selectFontSizeWrapper  {
 
 
@@ -129,9 +124,7 @@ border-radius: 50%;
     border:0px;
     outline:none;
 }
-.child4 {
-    display: inline-block;
-}
+
 .selectBackgroundWrapper {
 
     border-radius:36px;
@@ -147,6 +140,37 @@ border-radius: 50%;
     outline:none; 
 
 }
+.col2 {
+    padding-right: 100px;
+    padding-left: 50px
+    
+}
+.col1 {
+    padding-right: 100px;
+    background-color: red;
+}
+
+.pArea {
+    position:absolute;
+    
+    font-family: monospace;
+    font-size: bold;
+}
+
+
+@media print {
+    .container *:not(#row1):not(#row1 *) {
+         visibility: hidden; 
+    }
+    #row1 *:not(#printableArea):not(#printableArea *) {
+         visibility: hidden; 
+    }
+    #printableArea {
+        position: absolute;
+        left:0px;
+    }
+    
+ }
 
 
 
