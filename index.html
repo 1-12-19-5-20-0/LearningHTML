@@ -66,24 +66,25 @@
         </div>
         
         <div class="Print">
-            <input value='Print' type='button' onclick='handlePrint()' />
-            <script type="text/javascript">
-                const handlePrint = () => {
-                    var actContents = document.body.innerHTML;
-                    document.body.innerHTML = actContents;
+            <div id="printableArea">
+                <textarea> </textarea>
+            </div>
+            
+            <br/>
+            <button onclick = "printPageArea(printableArea)"> Print </button>
+            <script>
+                function printPageArea(areaID){
+                    var printContent = document.getElementById(areaID).innerHTML;
+                    var originalContent = document.body.innerHTML;
+                    document.body.innerHTML = printContent;
                     window.print();
+                    document.body.innerHTML = originalContent;
                 }
             </script>
         </div>
     </heading>
     <body>
-        <!-- <script>
-            var letterAndNumbers = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
-            for(let i = 0; i < letterAndNumbers.length; i++)    {
-               
-
-            }
-        </script>   -->
+        
         
         
     </body>
