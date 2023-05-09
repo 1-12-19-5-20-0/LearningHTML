@@ -47,6 +47,7 @@ Day 7 and day 8 working on  algorithm (some days not counted because I had Ap Ex
         At first I thought it would easy to make a website for making practice sheets, but it is hard 
         and harder to do with Ap exams, assignments, and learning two new languages javascript and css.
         anyway, the format is below 
+     
      |logo| WriteBetter.
 
      Font | input |                                      |every thing in here is printed     |
