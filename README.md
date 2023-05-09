@@ -43,5 +43,16 @@ Day 6 - making algorithm for website.
          
          
          
-Day 7 working on  algorithm
+Day 7 and day 8 working on  algorithm (some days not counted because I had Ap Exams.)
+        At first I thought it would easy to make a website for making practice sheets, but it is hard 
+        and harder to do with Ap exams, assignments, and learning two new languages javascript and css.
+        anyway, the format is below 
+     |logo| WriteBetter.
+
+     Font | input |                                      |every thing in here is printed     |
+     Panagram |on| |off|                                 |    when the print button is       |
+     Font size |college ruled(12px) or regular(14px)|    |          pressed  with the        |
+     Background |Lines or Plain|                         |        logo and website name      |
+                                                         |                                   |
+     |Print|   
 
