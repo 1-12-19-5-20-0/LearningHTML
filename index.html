@@ -16,9 +16,13 @@
             <img src="Images/writeBetterLightMode.png">
             <h1> Write Better.</h1>
         </nav>
-        <div class="parent">
-            <div class="child"><h2 class="body">Font</h2></div>
-            <div class="child">
+    </heading>
+
+    <body>
+    <div class="container">
+        <div class="row" id="row1">
+            <div class="col col1"><h2 class="body">Font</h2></div>
+            <div class="col col2">
                 <div class="selectFontWrapper">
                     <select class="selectFont">
                         <option Font="SourceCodePro-Regular">Printed</option>
@@ -27,10 +31,17 @@
                 </div>
                 
             </div>
+
+            <div class="col pArea" id ="printableArea" >
+                    <textarea rows="20" cols="70"> 
+
+                    </textarea>
+                   
+            </div>
         </div>
-        <div class="parent2">
-            <div class="child2"><h2 class="body">Panagram</h2></div>
-            <div class="child2">
+        <div class="row">
+            <div class="col col1"><h2 class="body">Panagram</h2></div>
+            <div class="col col2">
                 <label class="switch">
                     <input type="checkbox">
                     <span class="slider round"></span>
@@ -40,9 +51,9 @@
         
        
         
-        <div class="parent3">
-            <div class = "child3"><h2 class="body">Font Size</h2></div>
-            <div class="child3">
+        <div class="row">
+            <div class = "col col1"><h2 class="body">Font Size</h2></div>
+            <div class="col col2">
                 <div class="selectFontSizeWrapper">
                     <select class="selectFontSize">
                         <option fontSize=12px>CollegeSize</option>
@@ -52,9 +63,11 @@
                 
             </div>
         </div>
-        <div class="parent4">
-            <div class="child4"><h2 class="body">Background</h2></div>
-            <div class="child4">
+    
+    
+        <div class="row">
+            <div class="col col1"><h2 class="body">Background</h2></div>
+            <div class="col col2">
                 <div class="selectBackgroundWrapper">
                         <select class="selectBackground">
                             <option background="Plain">Plain</option>
@@ -64,27 +77,11 @@
             </div>
             
         </div>
-        
-        <div class="Print">
-            <div id="printableArea">
-                <textarea> </textarea>
-            </div>
-            
-            <br/>
-            <button onclick = "printPageArea(printableArea)"> Print </button>
-            <script>
-                function printPageArea(areaID){
-                    var printContent = document.getElementById(areaID).innerHTML;
-                    var originalContent = document.body.innerHTML;
-                    document.body.innerHTML = printContent;
-                    window.print();
-                    document.body.innerHTML = originalContent;
-                }
-            </script>
+        <div class="row">
+            <button onclick = "window.print()"> Print </button>
         </div>
-    </heading>
-    <body>
-        
+  
+    </div>     
         
         
     </body>
